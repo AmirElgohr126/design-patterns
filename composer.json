@@ -1,0 +1,15 @@
+{
+    "name": "pc/designpatterns",
+    "autoload": {
+        "psr-4": {
+            "Pc\\Designpatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Nagy Elgohr",
+            "email": "150277873+AmirElgohr@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

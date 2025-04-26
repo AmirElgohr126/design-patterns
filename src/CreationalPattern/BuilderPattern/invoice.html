@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice INV-001</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .invoice-header { margin-bottom: 20px; }
+        .customer-info { margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .total { font-weight: bold; text-align: right; }
+        .notes { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="invoice-header">
+        <h1>Invoice: INV-001</h1>
+        <p>Date: 2023-10-01</p>
+        <p>Status: Paid</p>
+        <p>Type: outgoing</p>
+    </div>
+    
+    <div class="customer-info">
+        <h2>Customer Information</h2>
+        <p>Name: amir</p>
+        <p>Email: amirnagy886@gmail.com</p>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td>Description for item 1</td>
+                <td>$100.00</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>Description for item 2</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>Description for item 3</td>
+                <td>$300.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="total">Subtotal:</td>
+                <td>$600.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="total">Tax (10%):</td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="total">Total:</td>
+                <td>$660.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="notes">
+        <h3>Notes</h3>
+        <p>Thank you for your business!</p>
+    </div>
+</body>
+</html>
